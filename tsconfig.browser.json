@@ -1,0 +1,11 @@
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+        "customConditions":["browser"],
+        "lib": [
+            "DOM",
+            "WebWorker"
+        ],
+    },
+    "include": ["src/frontend","src/types.d.ts"]
+}

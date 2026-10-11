@@ -1,0 +1,2 @@
+// src/frontend/tsconfig.json
+{ "extends": "../../tsconfig.browser.json" }
