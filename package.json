@@ -39,7 +39,7 @@
   },
   "dependencies": {
     "@hono/service-worker": "^1.0.0",
-    "achi-html-stream": "file:achi-html-stream-1.0.3.tgz",
+    "achi-html-stream": "^1.0.3",
     "express": "^5.2.1",
     "hono": "^4.13.13"
   },

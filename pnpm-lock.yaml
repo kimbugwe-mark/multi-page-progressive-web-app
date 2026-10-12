@@ -12,8 +12,8 @@ importers:
         specifier: ^1.0.0
         version: 1.0.0(hono@4.13.13)
       achi-html-stream:
-        specifier: file:achi-html-stream-1.0.3.tgz
-        version: file:achi-html-stream-1.0.3.tgz
+        specifier: ^1.0.3
+        version: 1.0.3
       express:
         specifier: ^5.2.1
         version: 5.2.1
@@ -486,9 +486,8 @@ packages:
     resolution: {integrity: sha512-5cvg6CtKwfgdmVqY1WIiXKc3Q1bkRqGLi+2W/6ao+6Y7gu/RCwRuAhGEzh5B4KlszSuTLgZYuqFqo5bImjNKng==}
     engines: {node: '>= 0.6'}
 
-  achi-html-stream@file:achi-html-stream-1.0.3.tgz:
-    resolution: {integrity: sha512-WSC2oCT+qjb5KvD2msuC8y0I+dGIU9DzMANE8F0gH7rLtXivXiAaNwISHHRSFkRzEW9rozXkSKihUuM7fggcIg==, tarball: file:achi-html-stream-1.0.3.tgz}
-    version: 1.0.3
+  achi-html-stream@1.0.3:
+    resolution: {integrity: sha512-D48c12xzA4CJPx8Q5TvAEy4/Q2okrcqHv5L/K9Ej2gxPU78u6LodVPy8u7Jm85HAFU22fZjS0q5L9lUrl6q2LQ==}
 
   ansis@4.3.1:
     resolution: {integrity: sha512-BJ8/l4R5LRE7hW9WdSuGYrLSHi2ynxeFpDFbH0K/CgNeY/tyhk+vO6TYxXC5r5CpUhNVX310xzPsN/H9lCdfOA==}
@@ -1455,7 +1454,7 @@ snapshots:
       mime-types: 3.0.2
       negotiator: 1.1.0
 
-  achi-html-stream@file:achi-html-stream-1.0.3.tgz: {}
+  achi-html-stream@1.0.3: {}
 
   ansis@4.3.1: {}
 
